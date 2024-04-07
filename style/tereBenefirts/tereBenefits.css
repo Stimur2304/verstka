@@ -1,0 +1,110 @@
+.tereBenefits-container{
+    max-width: 1215px;
+    margin: 0 auto;
+}
+.card{
+    width: 87%;
+    min-height: 304px;
+    background-color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+.left-card-content{
+    width:431px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 46px;
+}
+.card-number{
+    color: #75BF7A;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.8px; /* 135% */
+}
+.card-header{
+    color: #000;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 33.943px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.5px; /* 95.749% */
+}
+.card-desk{
+    color: #9E9DA2;
+    font-family:"Ubuntu",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 104.545% */
+}
+.card img{
+    padding-right: 110px;
+}
+.tereBenefits{
+    min-height: 1352px;
+}
+.first-last-card{
+    margin-bottom: 56px;
+}
+.second-card{
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: flex-end;
+}
+.second-card-card{
+    width: 87%;
+    min-height: 304px;
+    background-color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.right-card-content{
+    padding-left: 0px;
+    padding-right: 161px;
+}
+.second-card img{
+    padding-right: 0px;
+    padding-left: 110px;
+}
+.left-card-content2{
+    width:490px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 46px;
+}
+.tere-benefits-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:87px 0px 52px 0px;
+}
+.tere-benefits-header h1{
+    color: #000;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 46.386px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50.346px;
+}
+.tere-benefits-header span{
+    color: #75BF7A;
+}
+.desk2{
+    display: none;
+    color: #9E9DA2;
+    font-family:"Ubuntu",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 104.545% */
+    text-align: center;
+}

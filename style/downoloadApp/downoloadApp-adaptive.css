@@ -1,0 +1,82 @@
+@media(max-width:1219px){
+    .downoload-app__content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .downolaod-img{
+        width: 200px;
+        height: 200px;
+        
+    }
+    .left__downoload-app{
+        padding-top: 62px;
+    }
+    .downoload-app__header{
+        text-align: center;
+    }
+    .downoload-app__desk{
+        text-align: center;
+    }
+    .downoload-app{
+        padding-bottom: 74px;
+    }
+}
+@media(max-width:560px){
+    .downoload-app__header{
+        font-size: 34px;
+        line-height: 37px;
+    }
+    .left__downoload-app{
+        max-width: 320px;
+    }
+    .downoload-app__desk{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .downoload-app__desk__div{
+       max-width: 320px;
+    }
+    .downoload-app__buttons{
+        max-width: 320px;
+    }
+    .downoload-button{
+        width: 151px;
+        height: 37px;
+        font-size:14px ;
+    }
+    .downoload-button img{
+        width: 26px;
+        height: 23px;
+    }
+    .downoload-img{
+        width: 320px;
+        height: 370px;
+    }
+}
+@media(max-width:350px){
+    .downoload-app__header{
+        font-size: 24px;
+    }
+    .left__downoload-app{
+        width: 300px;
+        padding: 20px;
+    }
+    .downoload-app__desk{
+        font-size: 14px;
+    }
+    .downoload-app__desk__div{
+        width: 280px;
+    }
+    .downoload-app__buttons{
+        width: 280px;
+    }
+    .downoload-button{
+        width: 130px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .downoload-button img{
+        width: 22px;
+        height: 19px;
+    }
+}

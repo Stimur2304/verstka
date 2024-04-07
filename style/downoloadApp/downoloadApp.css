@@ -1,0 +1,67 @@
+.downoload-app{
+    min-height: 723px;
+    background-color: #F9F9F9;
+}
+.left__downoload-app{
+  width: 557px;
+  padding: 163px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.downoload-app__header{
+    color: #000;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 55.726px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 65.91px; /* 108.537% */
+    padding-bottom: 27px;
+}
+.downoload-app__desk{
+    color: #9E9DA2;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px; /* 116.667% */
+    padding-bottom: 27px;
+}
+.downoload-app__buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 557px;
+}
+.downoload-button{
+    width: 260px;
+    height: 67px;
+    flex-shrink: 0;
+    background-color: #000;
+    border-radius: 5px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 24.601px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0px; /* 0% */
+}
+.downoload-app__desk__div{
+    width: 550px
+}
+.downoload-app__content{
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-between;
+}
+.downoload-img{
+    height: 615px;
+    padding-top: 54px;
+
+}
+.downoload-button:hover{
+    background-color: #75BF7A;
+}

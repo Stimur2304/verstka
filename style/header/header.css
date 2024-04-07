@@ -1,0 +1,58 @@
+.header{
+    height: 174px;
+    display: flex;
+    align-items: end;
+    width: 100%;
+    background-color: #FFF;
+}
+.header-content{
+     height: 89px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.right__header-content{
+    width: 600px;
+}
+.header-link{
+
+    color: #000;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 17.161px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-button{
+    border: none;
+    border-radius: 5.952px;
+    background: #75BF7A;
+    width: 182px;   
+    height: 50px;
+    color: #FFF;
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+.header-link:hover{
+    color: #75BF7A;
+}
+
+.header-button:hover{
+    background-color: #FFF;
+    color: #75BF7A;
+    border: #75BF7A 3px solid;
+}
+.burger{
+    display: none;
+}
